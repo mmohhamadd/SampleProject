@@ -1,17 +1,26 @@
 # DjangoProject
 #You can use the prepared virtual environment in venv folder for running the project 
+
 #Handling Requests for a user app in a website with Django RestframeWork
 
 #User app
+
+-----------
+
 URL -->  /user/login
+
 POST:Login
+
 required data:
 -username
 -password
 
+-----------
 
-/user/signup
+URL -->/user/signup
+
 POST:Signup
+
 required data:
 -username
 -password
@@ -19,13 +28,18 @@ required data:
 -last_name
 -email
 
+-----------
 
-/user/profile
+URL --> /user/profile
+
 PUT: edit profile
+
 required data:
 -first_name
 -last_name
 
+-----------
 
-/user/list 
+URL --> /user/list 
+
 GET: get users list
